@@ -46,7 +46,7 @@ const loadUsersFromFile = (filePath: string): User[] => {
 };
 
 // Exemple d'utilisation
-const filePath = "users.json"; // Chemin vers le fichier JSON
+const filePath = "users.json";
 const users = loadUsersFromFile(filePath);
 
 const filters: FilterCriteria = {
